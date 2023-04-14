@@ -28,3 +28,11 @@ Time Complexity Big-O Guide
       //not a product of 2 smaller natural numbers
       isPrime(5)= true (1*5 or 5*1)
       isPrime(4)= false (1*4 or 2*2 or 4*1)
+
+- [Power of Two](Algorithms/PowerOfTwo.js)
+
+      //An integer is a power of two if
+      //there exists an integer x such that n === 2^x
+      isPowerOfTwo(1) = true(2^0)
+      isPowerOfTwo(2) = true(2^1)
+      isPowerOfTwo(5) = false
