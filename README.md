@@ -36,3 +36,21 @@ Time Complexity Big-O Guide
       isPowerOfTwo(1) = true(2^0)
       isPowerOfTwo(2) = true(2^1)
       isPowerOfTwo(5) = false
+
+- **Recursion** - is when a function call itself
+
+- **Search algorithms**
+
+  - Linaer search, for loop search
+
+    - arr = [-5 , 2 , 10, 4 ,6] , t = 10, Should return 2
+    - arr = [-5 , 2 , 10, 4 ,6] , t = 6, Should return 4
+    - arr = [-5 , 2 , 10, 4 ,6] , t = 20, Should return -1
+
+  - Binary search - works on sorted arrays, search middle loop
+
+    - arr = [-5 , 2 , 4, 6 ,10] , t = 10, Should return 4
+    - arr = [-5 , 2 , 4, 6 ,10] , t = 6, Should return 3
+    - arr = [-5 , 2 , 4, 6 ,10] , t = 20, Should return -1
+
+  - Recursive binary search
